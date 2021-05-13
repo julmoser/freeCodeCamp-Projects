@@ -1,0 +1,65 @@
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="../css/survey-form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title">Backend Developers</h1>
+  <p id="description">
+    This survey wants to find the language pattern of backend developers
+  </p>
+  <form id="survey-form">
+    <div class="container">
+      <div class="item1-name">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="Jane Doe" name="name" required>
+      </div>
+      <div class="item2-email">
+        <label id="email-label" for="email">E-mail</label>
+        <input type="email" id="email" placeholder="name@example.com" name="email" required>
+      </div>
+      <div class="item3-age">
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number" placeholder="50" name="age" min="1" max="100" required>
+      </div>
+      <div class="item4-dropdown">
+        <label for="dropdown">Gender</label>
+        <select id="dropdown" name="Gender">
+          <option value="f">Female</option>
+          <option value="m">Male</option>
+          <option value="null">Rather not say</option>
+        </select>
+      </div>
+      <div class="item5-radio">
+        <p>Your most important backend language:</p>
+        <label id="i-label" for="i-python">Python</label>
+        <input type="radio" id="i-python" name="important-backend" value="python">
+        <label id="i-java-label" for="i-java">Java</label>
+        <input type="radio" id="i-java" name="important-backend" value="java">
+        <label id="i-ruby-label" for="i-ruby">Ruby</label>
+        <input type="radio" id="i-ruby" name="important-backend" value="ruby">
+      </div>
+      <div class="item6-checkbox">
+        <p>You're practising this backend language:</p>
+        <label id="p-python-label" for="p-python">Python</label>
+        <input type="checkbox" id="p-python" name="practising-backend" value="python">
+        <label id="p-java-label" for="p-java">Java</label>
+        <input type="checkbox" id="p-java" name="practising-backend" value="java">
+        <label id="p-ruby-label" for="p-ruby">Ruby</label>
+        <input type="checkbox" id="p-ruby" name="practising-backend" value="ruby">
+      </div>
+      <div class="item7-textarea">
+        <label for="textarea">Additional comments:</label>
+        <textarea id="textarea" name="additionalcomments" rows="4" cols="50">You forgot to include .NET</textarea>
+      </div>
+    </div>
+    <div class="submit"> <button id="submit" type="submit">Submit entries</button>
+    </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.item1-name{
+  grid-area:  2 / 2 / 2 / 2;
+}
+.item2-email{
+  grid-area:  3 / 2 / 3 / 2;
+}
+.item3-age{
+  grid-area:  4 / 2 / 4 / 2;
+}
+.item4-dropdown{
+  grid-area:  5 / 2 / 5 / 2;
+}
+.item5-radio{
+  grid-area:  6 / 2 / 6 / 2;
+}
+.item6-checkbox{
+  grid-area:  7 / 2 / 7 / 2;
+}
+.item7-textarea{
+  grid-area:  8 / 2 / 8 / 2;
+}
+h1{
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+body{
+  font-family: arial;
+}
+.container {
+  width: 70%;
+  height: 70%;
+  color: rgba(255, 255, 255, 0.85);
+  background: #1b1f23;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+.name {
+  background-color:  rgba(255, 255, 255, 0.85);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #1b1f23;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #1b1f23;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #1b1f23;
+}
+textarea{
+  font-family: arial;
+  color: #1b1f23;
+  width: auto;
+  height: auto;
+}

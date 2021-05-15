@@ -1,29 +1,33 @@
 body {
-  color: rgb(205,209,212);
-  background: rgb(41,41,39);
+  color: rgb(205, 209, 212);
+  background: rgb(41, 41, 39);
   font-family: arial;
 }
-header{
-  position: fixed
+
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: 50px;
 }
+
 .bg-img {
   background-image: url("img/header-fast-direction.jpg");
   background-position: center;
   background-size: cover;
   overflow: hidden;
-  position: fixed;
-  width: 100%;
-  margin-top: 50px;
 }
+
 .container {
   position: relative;
   margin: 0px;
   width: 100px;
 }
+
 .topnav {
   overflow: hidden;
-  background-color: rgb(41,41,39);
+  background-color: rgb(41, 41, 39);
 }
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -32,7 +36,8 @@ header{
   text-decoration: none;
   font-size: 12px;
 }
+
 .topnav a:hover {
-  background-color: rgb(205,209,212);
-  color: rgb(41,41,39);
+  background-color: rgb(205, 209, 212);
+  color: rgb(41, 41, 39);
 }

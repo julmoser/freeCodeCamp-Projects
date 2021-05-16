@@ -4,7 +4,7 @@ body {
   font-family: arial;
 }
 
-header {
+#header {
   position: fixed;
   width: 100%;
   margin-top: 50px;

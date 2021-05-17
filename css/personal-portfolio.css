@@ -1,0 +1,105 @@
+#header {
+  position: fixed;
+  margin-top: 0px;
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1;
+  grid-gap: 5px;
+  width: 100%;
+  position: fixed;
+  margin-left: 50px;
+}
+
+.nav-link {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  background-color: rgb(205, 209, 212);
+  color: rgb(41, 41, 39);
+  width: 100%;
+  height: 15px;
+}
+
+#nav1 {
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+#nav2 {
+  grid-area: 1 / 2 /1 / 2;
+}
+
+#nav3 {
+  grid-area: 1 / 3 /1 / 3;
+}
+
+#header-img {
+  grid-area: 1 / 4 /1 / 4;
+  background-color: rgb(205, 209, 212);
+  width: 35px;
+  height: auto;
+}
+
+.nav-link:hover {
+  background-color: rgb(41, 41, 39);
+  color: rgb(205, 209, 212);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 100px;
+}
+
+#guide-link {
+  color: #f2f2f2
+}
+
+#welcome-section {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+a {
+  color: rgb(205, 209, 212);
+}
+
+@media (min-width: 750px) {
+  main {
+    margin-top: 150px;
+  }
+
+  #navbar {
+    grid-template-columns: 1;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0px;
+    width: 450px;
+  }
+
+  #nav1 {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+
+  #nav2 {
+    grid-area: 2 / 1 /2 / 1;
+  }
+
+  #nav3 {
+    grid-area: 3 / 1 /3 / 1;
+  }
+}
+
+#header-img {
+  grid-area: 4 / 1 /4 / 1;
+}
+}

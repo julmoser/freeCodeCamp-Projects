@@ -1,3 +1,7 @@
+#header {
+  margin-top: 0px;
+}
+
 #nav-bar {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
